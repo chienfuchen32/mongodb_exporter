@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/dcu/mongodb_exporter/shared"
+	"github.com/chienfuchen32/mongodb_exporter/shared"
 	"github.com/golang/glog"
 	"github.com/prometheus/client_golang/prometheus"
 	"gopkg.in/mgo.v2"

@@ -2,20 +2,20 @@
 
 MongoDB exporter for prometheus.io, written in go.
 
-![screenshot](https://raw.githubusercontent.com/dcu/mongodb_exporter/321189c90831d5ad5a8c6fb04925a335b37f51b8/screenshots/mongodb-dashboard-1.png)
+![screenshot](https://raw.githubusercontent.com/chienfuchen32/mongodb_exporter/321189c90831d5ad5a8c6fb04925a335b37f51b8/screenshots/mongodb-dashboard-1.png)
 
 [Grafana Dashboard](https://grafana.com/dashboards/2583)
 
 ## Installing
 
-Download a [release](https://github.com/dcu/mongodb_exporter/releases)
+Download a [release](https://github.com/chienfuchen32/mongodb_exporter/releases)
 
 ## Building
 
 Requires [glide](https://github.com/Masterminds/glide) for dependency management
 
-    git clone git@github.com:dcu/mongodb_exporter.git $GOPATH/src/github.com/dcu/mongodb_exporter
-    cd $GOPATH/src/github.com/dcu/mongodb_exporter
+    git clone git@github.com:chienfuchen32/mongodb_exporter.git $GOPATH/src/github.com/chienfuchen32/mongodb_exporter
+    cd $GOPATH/src/github.com/chienfuchen32/mongodb_exporter
     make build
     ./mongodb_exporter -h
 
